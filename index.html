@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<title> Search </title>
+  </head>
+
+  <body class="flex h-screen flex-col">
+    <div class="bg-gray-800 py-4 px-2 text-xl text-gray-100 font-bold">
+      Search
+    </div>
+	<div class="flex bg-gray-700 px-2 flex justify-start items-center ">
+		<nav class="flex text-gray-200 ">
+				<a class="py-1 px-2 bg-gray-400 text-black" href="../index.html">Home</a>
+				<a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/RandomWithReplacement.html">Random Search(Memoryless)</a>
+				<a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/RandomWithoutReplacement.html">Random Search(with Memory)</a>
+				<a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/LinearSearch.html">Linear Search</a>
+				<a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/BinarySearch.html">Binary Search</a>
+				<!-- <a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/bubblesort.html">Bubblesort</a>
+				<a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/bubblesortManual.html">Bubblesort (Exercise)</a>
+				<a class="py-1 px-2 hover:bg-gray-400 hover:text-gray-800" href="./machines/bubblesortTest.html">Bubblesort (Test)</a> -->
+		</nav>
+	  </div>
+	  <div class="container flex-grow flex flex-col justify-evenly p-10 text-gray-900">
+	  <h1 class="text-2xl">Introduction</h1>
+      <p class="py-3">
+		Understanding algorithms, even simple ones, can be challenging. Reading through the pseudo-code or actual code written in some programming language and tracing the execution line-by-line makes it difficult to grasp the core concepts of the algorithm.
+	  </p>
+      <p class="py-3">
+		Therefore, we are presenting an alternate way to learn algorithms. Using the example of Search, we will demonstrate a systematic way of learning algorithms using transition systems.
+	  </p>
+      <p class="py-3">
+		The Binary Search algorithm is introduced gradually through four different experiments. Each experiment introduces just one new concept, and lets you interactively learn that concept while performing the given task. By the time you reach the final stage, you will be presented with the final algorithm, which you can step through at your own pace, visualising each every step involved.
+	  </p>
+      <h1 class="text-2xl">Interactive Abstract Machines for Search</h1>
+
+      <ol class="list-decimal 
+		 list-inside text-lg 
+		 text-blue-600 bg-gray-100
+		 p-4 rounded-lg shadow-md">
+	<li>
+	  <a href="./machines/RandomWithReplacement.html">
+	    Random Search With Replacement
+	  </a>
+	</li>
+	<li>
+		<a href="./machines/RandomWithoutReplacement.html">
+			Random Search Without Replacement
+		</a>
+	  </li>
+	<li>
+	  <a href="./machines/LinearSearch.html">
+	    Linear Search
+	  </a>
+	</li>
+	<li>
+	  <a href="./machines/BinarySearch.html">
+	    Binary Search
+	  </a>
+	</li>
+	<!-- <li>
+	  <a href="./machines/bubblesort.html">
+	    Bubblesort Machine
+	  </a>
+	</li>
+	<li>
+	  <a href="./machines/bubblesortManual.html">
+	    Bubblesort (Exercise)
+	  </a>
+	</li>
+	<li>
+	  <a href="./machines/bubblesortTest.html">
+	    Bubblesort (Test)
+	  </a>
+	</li> -->
+      </ol>
+      
+    </div>
+  </body>
+
+</html>
